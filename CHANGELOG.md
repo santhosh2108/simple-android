@@ -7,6 +7,7 @@
 - Migrate `SelectCountryScreen` to a fragment
 - Inject `DrugFrequencyToLabelMap` directly in `TeleconsultMedicinesView` instead of handling it in the effect handler
 - Custom Drug Entry Sheet UI Improvements
+- Navigate back to `SelectCountryScreen` from `RegistrationPhoneScreen` when there's only one state present in the country
 
 ### Changes
 
