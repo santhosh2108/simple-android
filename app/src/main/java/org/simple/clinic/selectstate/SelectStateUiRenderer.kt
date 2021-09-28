@@ -17,7 +17,9 @@ class SelectStateUiRenderer(
     }
 
     if (model.hasStates) {
-      ui.showStates(model.states!!, model.selectedState)
+      if (model.hasMoreThanOneState) {
+        ui.showStates(model.states!!, model.selectedState)
+      }
     } else {
       ui.hideStates()
     }
